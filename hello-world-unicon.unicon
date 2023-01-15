@@ -1,0 +1,6 @@
+procedure main()
+	w := open("test UNICON window", "g")
+	write(w, "hello world")
+	read(w)
+	close(w)
+end
